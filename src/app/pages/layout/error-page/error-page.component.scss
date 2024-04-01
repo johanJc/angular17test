@@ -1,0 +1,23 @@
+section.error{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(358deg, #ef0909, #737373);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.msj-error{
+    color: white;
+    font-size: 1.2em;
+    font-family: "Bree Serif", serif;
+    padding-inline: 1em;
+
+}
+
+.cont-img{
+    img{
+        aspect-ratio: 1 / 1;
+    }
+}

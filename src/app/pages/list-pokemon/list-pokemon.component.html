@@ -1,0 +1,21 @@
+<nav class="navbar">
+    <p class="title-navbar">
+        Pokemon list
+    </p>
+</nav>
+
+@defer (when (pokemon_list.length > 0)) {
+<section class="list-pokemon">
+    <ul class="content-items-pokemons">
+        @for (item of pokemon_list; track item.name) {
+        <li class="items-pokemons">
+            <span class="name">
+                {{item.name}}
+            </span>
+        </li>
+        }
+    </ul>
+</section>
+} @placeholder {
+    <app-placeholder-loading />
+}

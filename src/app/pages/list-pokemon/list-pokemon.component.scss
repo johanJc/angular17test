@@ -1,0 +1,46 @@
+.navbar {
+    height: 80px;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    background-color: red;
+}
+
+.title-navbar {
+    font-size: 2rem;
+    width: fit-content;
+    margin-inline: auto;
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    transform: translateY(5px);
+}
+
+section.list-pokemon{
+    margin-top: 80px;
+    padding-top: 1em;
+}
+
+.content-items-pokemons{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
+    gap: 1em;
+    margin: 0px;
+    padding: 1em;
+    list-style: none;
+}
+
+.items-pokemons{
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 1em;
+    border-radius: 15px;
+    box-shadow: 1px 1px 8px #0000004c;
+    font-family: "Bree Serif", serif;
+}
+
+.items-pokemons::first-letter{
+    text-transform: capitalize;
+}
